@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="90dp"
+    android:background="@drawable/border_scanner"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#80000000"
+        android:padding="2dp"
+        android:text="LOOT SCAN REGION"
+        android:textColor="#FFFFD700"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+</FrameLayout>
